@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* About Us section */
+.container {
+    max-width: 800px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Team section styling */
+.row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Us section */
+h3 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+

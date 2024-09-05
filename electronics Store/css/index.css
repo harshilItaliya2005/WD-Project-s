@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #ddd !important;
+}
+
+/* Carousel styling */
+.carousel-inner img,
+.carousel-item img {
+    height: 500px; /* Unified height for all carousel images */
+    object-fit: cover;
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.btn-primary:hover {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+/* Featured Products */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+.card-img-top {
+    height: 250px; /* Set a uniform height for all images */
+    object-fit: cover; /* Ensures the images maintain their aspect ratio */
+    width: 100%; /* Set the width to 100% of the card */
+}
+z
+
+/* Footer styling */
+footer h5 {
+    font-weight: bold;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer hr {
+    margin: 20px 0;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+footer .list-inline-item a {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+footer .list-inline-item a:hover {
+    color: #17a2b8; /* Change color on hover */
+}

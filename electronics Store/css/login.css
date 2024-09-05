@@ -1,0 +1,74 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Login Form styling */
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group label {
+    font-size: 1rem;
+    color: #555;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.btn-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #007bff;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 575.98px) {
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+}
