@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(bg.avif);
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.heading {
+    color: #000;
+    text-align: center;
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+}
+
+.registration-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.registration-container input[type="text"],
+.registration-container input[type="email"],
+.registration-container input[type="password"],
+.registration-container input[type="date"],
+.registration-container select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.registration-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.registration-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.registration-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border:rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-container input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.registration-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registration-container a:hover {
+    text-decoration: underline;
+}
