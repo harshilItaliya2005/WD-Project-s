@@ -1,0 +1,179 @@
+body {
+    padding-top: 70px; 
+    background-color: aquamarine;
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #232f3e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+#search-bar {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+#search-btn {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+
+#login-btn {
+    background-color: #f8b400;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login-btn:hover {
+    background-color: #b0913b;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.uniform-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.uniform-img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+#kids-view-btn, #women-view-btn, #men-view-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #00ccff; 
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#kids-view-btn:hover, #women-view-btn:hover, #men-view-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+.footer {
+    background-color: #232f3e; 
+    color: #ffffff; 
+    padding: 40px 0;
+}
+
+.footer h5 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #f3a847; 
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.footer .social-icon {
+    color: #ffffff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #f3a847; 
+}
+
+.footer .text-center p {
+    margin: 0;
+    font-size: 14px;
+}
