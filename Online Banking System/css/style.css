@@ -1,0 +1,16 @@
+/* styles.css */
+body {
+    background-color: #dc9b9b;
+    font-family: Arial, sans-serif;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  .btn-primary {
+    background-color: #007bff;
+  }
+  
